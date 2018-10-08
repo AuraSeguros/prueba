@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Gestion KPI's</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- estilos en CSS -->
+	<style>
+    .slider{
+      background: url("images/fondo.jpg");
+	    height: 10vh;
+	    background-size: cover;
+	    background-position: center;
+    }
+    .fondo{background: #003763;}
+	  .borde{border: 1px #000 solid;} /*borde de un pixel, negro (#000) y sólido*/
+  </style>
+</head>
+<body>
+<section>
+    <!-- slider. imegen superior con fondo definido en style-->
+  	<section class="container-fluid slider d-flex justify-content-center align-items-center">
+      <h2>Gestión KPI's</h2>
+  	</section>
+  			
+  	<!-- menu -->
+  	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">
+  		  <img src="images/logo-aura-seguros-web.png" width="110" height="50" class="d-inline-block align-top" alt="">
+  		</a>
+  			
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+  		  <span class="navbar-toggler-icon"></span>
+  		</button>
+  				
+  		<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  		  <div class="navbar-nav mr-auto text-center">
+  			 <a class="nav-item nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+         <a class="nav-item nav-link" href="it.html">KPI IT</a>
+  			 <a class="nav-item nav-link" href="marketing.html">KPI Marketing</a>
+  			 <a class="nav-item nav-link" href="generar.html">KPI Generar Inserts</a>
+  			 <a class="nav-item nav-link active" href="contacto.hTml">Contacto</a>
+  		  </div>
+  			<div class="d-flex flex-row justify-content-center">
+  			 <a href="https://twitter.com/auraseguros" class="btn btn-info">Twitter</a>
+  			 <a href="https://www.facebook.com/auraseguros.oficial/" class="btn btn-primary">Facebook</a>
+  			 <a href="https://www.youtube.com/auraseguros" class="btn btn-danger">Youtube</a>
+  			 <a href="https://www.linkedin.com/company-beta/966993/" class="btn btn-primary">LinkedIn</a>
+  			</div>
+  		</div>
+  	</nav>
+    
+    <!-- FORMULARIOS -->
+    <section class="container">
+      <h3 class="text-uppercase text-center mt-5">Formulario</h3>
+
+      <div class="row">
+        <div class="col-6">
+          <form action="" class="mt-5">
+            <div class="form-group row">
+              <label for="" class="col-2 col-form-label">Nombre:</label>
+              <input type="text" placeholder="Introduzca nombre" class="form-control col-10">
+            </div>
+            <div class="form-group row">
+              <label for=""class="col-2 col-form-label">Email:</label>
+              <input type="email" placeholder="Introduzca email" class="form-control col-10">
+            </div>
+            
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Enviar</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel">Envio correo</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Envio realizado correctamente.
+                  </div>
+                  <div class="modal-footer">
+                    <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- FIN Modal -->
+          </form>
+        </div>
+      </div>
+     </h3>
+    </section>
+    <!-- FIN FORMULARIOS -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/funciones.js"></script>
+
+  </section>
+</body>
+</html>
